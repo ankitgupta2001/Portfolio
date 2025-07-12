@@ -1,5 +1,5 @@
 /**
- * @copyright 2024 YogeshYKG
+ * @copyright 2025 AnkitGupta
  * @license Apache-2.0
  */
 /** Node Modules */
@@ -10,11 +10,12 @@ import { createRoot } from 'react-dom/client'
 import VersionControl from './versioncontrol.jsx'
 
 /** Css Links */
+import './global.css'
 import './index.css'
 import 'lenis/dist/lenis.css'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode basename="/Portfolio">
+  <StrictMode>
     <VersionControl />
   </StrictMode>
 )

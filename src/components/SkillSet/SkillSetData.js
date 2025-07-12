@@ -1,0 +1,128 @@
+const skillCategories = [
+  {
+    category: "Programming Languages",
+    skills: [
+      { name: "TypeScript", proficiency: "high" },
+      { name: "JavaScript", proficiency: "high" },
+      { name: "SQL", proficiency: "medium" },
+      { name: "PHP", proficiency: "medium" },
+      { name: "Java", proficiency: "low" },
+      { name: "C++", proficiency: "low" },
+      { name: "Objective-C", proficiency: "low" },
+      { name: "Python", proficiency: "low" },
+      { name: "Ruby", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Frontend Technologies",
+    skills: [
+      { name: "React", proficiency: "high" },
+      { name: "Angular", proficiency: "high" },
+      { name: "CSS", proficiency: "high" },
+      { name: "HTML", proficiency: "high" },
+      { name: "System Design", proficiency: "high" },
+      { name: "D3.js", proficiency: "medium" },
+      { name: "SVG", proficiency: "high" },
+      { name: "Figma", proficiency: "medium" },
+      { name: "Sass", proficiency: "high" },
+      { name: "Styled Components", proficiency: "high" },
+      { name: "Next.js", proficiency: "medium" },
+      { name: "Tailwind CSS", proficiency: "medium" },
+      { name: "Bootstrap", proficiency: "medium" },
+      { name: "jQuery", proficiency: "high" },
+      { name: "GraphQL", proficiency: "medium" },
+      { name: "Thunder Client", proficiency: "medium" },
+      { name: "Redux", proficiency: "medium" },
+      { name: "PHP", proficiency: "medium" },
+    ],
+  },
+  {
+    category: "Backend Technologies",
+    skills: [
+      { name: "WebSockets", proficiency: "high" },
+      { name: "Node.js", proficiency: "medium" },
+      { name: "Express.js", proficiency: "medium" },
+      { name: "Next.js", proficiency: "medium" },
+      { name: "AWS", proficiency: "medium" },
+      { name: "REST APIs", proficiency: "medium" },
+      { name: "GraphQL APIs", proficiency: "low" },
+      { name: "Nginx", proficiency: "low" },
+      { name: "Ruby on Rails", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Data Technologies",
+    skills: [
+      { name: "MySQL", proficiency: "high" },
+      { name: "PostgreSQL", proficiency: "low" },
+      { name: "DynamoDB", proficiency: "low" },
+      { name: "MongoDB", proficiency: "low" },
+      { name: "Google Analytics", proficiency: "low" },
+      { name: "Firebase", proficiency: "medium" },
+      { name: "Oracle Database", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Build, Test, & Deploy Tools",
+    skills: [
+      { name: "NPM", proficiency: "high" },
+      { name: "GitHub", proficiency: "high" },
+      { name: "Webpack", proficiency: "high" },
+      { name: "Babel", proficiency: "high" },
+      { name: "ESlint", proficiency: "high" },
+      { name: "Prettier", proficiency: "high" },
+      { name: "GitLab", proficiency: "medium" },
+      { name: "AWS CloudFormation", proficiency: "medium" },
+      { name: "Vite", proficiency: "medium" },
+      { name: "Yarn", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Cloud Infrastructure",
+    skills: [
+        
+      { name: "Vercel", proficiency: "high" },
+      { name: "Amazon Web Services", proficiency: "medium" },
+      { name: "Cloudflare", proficiency: "medium" },
+      { name: "Google Cloud Platform", proficiency: "low" },
+      { name: "Heroku", proficiency: "low" },
+      { name: "Microsoft Azure", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Identity Platforms",
+    skills: [
+      { name: "AWS Cognito", proficiency: "low" },
+      { name: "JWT", proficiency: "low" },
+      { name: "OAuth", proficiency: "low" },
+      { name: "OpenID Connect", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Management & Leadership",
+    skills: [
+      { name: "Technology Strategy", proficiency: "high" },
+      { name: "Agile Development", proficiency: "high" },
+      { name: "Employee Development", proficiency: "high" },
+      { name: "Technical Recruiting", proficiency: "high" },
+      { name: "Headcount Planning", proficiency: "low" },
+      { name: "Project Management", proficiency: "medium" },
+      { name: "Employee Experience", proficiency: "medium" },
+      { name: "Mergers & Acquisitions", proficiency: "low" },
+      { name: "Engineering Management", proficiency: "low" },
+    ],
+  },
+  {
+    category: "Communication",
+    skills: [
+        
+      { name: "Technical Documentation", proficiency: "high" },
+      { name: "Knowledgebase Management", proficiency: "high" },
+      { name: "Verbal Communication", proficiency: "medium" },
+      { name: "Sales Engagements", proficiency: "low" },
+      { name: "Public Speaking", proficiency: "low" },  
+    ],
+  },
+];
+
+export default skillCategories;

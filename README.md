@@ -46,12 +46,14 @@ Make sure you have the following installed on your system:
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -59,6 +61,7 @@ Make sure you have the following installed on your system:
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or
@@ -130,4 +133,4 @@ This project is licensed under the [Apache License 2.0](https://www.apache.org/l
 
 Feel free to reach out if you have any questions or suggestions!
 
-**Author:** [YogeshYKG](https://github.com/YogeshYKG)
+**Author:** [AnkitGupta](https://github.com/AnkitGupta)

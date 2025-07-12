@@ -1,5 +1,5 @@
 /**
-  @copyright 2024 YogeshYKG
+  @copyright 2025 AnkitGupta
  * @license Apache-2.0
  */
 
@@ -12,7 +12,8 @@ const ButtonPrimary = ({
     target = '_self',
     label,
     icon,
-    classes
+    classes,
+    onClick  = () => {},
 }) => {
     if(href) {
         return (
@@ -38,8 +39,13 @@ const ButtonPrimary = ({
     }
     else {
         return (
-            <button className={"btn btn-primary " + classes}>
+            <button className={"btn btn-primary " + classes}
+                onClick={onClick}
+                type="button"
+
+            >
                 {label}
+                
 
                 {
                     icon ? 
@@ -111,7 +117,17 @@ ButtonOutline.propTypes = {
     href: PropTypes.string,
     target: PropTypes.string,
     icon: PropTypes.string,
-    classes: PropTypes.string
+    classes: PropTypes.string,
+    onClick: PropTypes.func,
+}
+
+ButtonPrimary.propTypes = {
+  label: PropTypes.string.isRequired,
+  href: PropTypes.string,
+  target: PropTypes.string,
+  icon: PropTypes.string,
+  classes: PropTypes.string,
+  onClick: PropTypes.func,
 }
 
 export {

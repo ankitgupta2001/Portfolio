@@ -1,5 +1,5 @@
 /**
- * @copyright 2024 YogeshYKG
+ * @copyright 2025 AnkitGupta
  * @license Apache-2.0
  */
 
@@ -27,7 +27,7 @@ const works = [
           'DFD Design',
           'Responsive UI'
         ],
-        projectLink: 'https://github.com/YogeshYKG/NIC-Intern-Work'
+        projectLink: 'https://github.com/AnkitGupta/NIC-Intern-Work'
       },
     //   More Json Objects for Works
    ];

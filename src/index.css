@@ -87,8 +87,10 @@ body {
     @apply text-zinc-900 duration-500
 }
 
+
 .navbar .active-box {
-    @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
+  @apply absolute bg-zinc-50 rounded-lg -z-10;
+  transition: top 0.3s, left 0.3s, width 0.3s, height 0.3s;
 }
 
 /* Button */

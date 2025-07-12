@@ -1,5 +1,5 @@
 /**
- * @copyright 2024 YogeshYKG
+ * @copyright 2025 AnkitGupta
  * @license Apache-2.0
  */
 
@@ -26,7 +26,7 @@ const appitemcard = [
   {
     iframeSrc: "https://social-media-six-gray.vercel.app/",
     imgSrc: "",
-    gitSrc: "https://github.com/YogeshYKG/social-media",
+    gitSrc: "https://github.com/AnkitGupta/social-media",
     label: "Social Media Dashboard",
     desc: "A React JS social media dashboard application with user interaction features",
     tags: [
@@ -40,7 +40,7 @@ const appitemcard = [
   {
     iframeSrc: "https://weather-app-ruddy-two-48.vercel.app/",
     imgSrc: "/images/MyAppItem/WeatherApp.png",
-    gitSrc: "https://github.com/YogeshYKG/WeatherApp",
+    gitSrc: "https://github.com/AnkitGupta/WeatherApp",
     label: "WeatherApp",
     desc: "A Vite React JS application that fetches and displays real-time weather data using the OpenWeatherMap API",
     tags: [
@@ -72,7 +72,7 @@ const appitemcard = [
   {
     iframeSrc: "https://react-food-app-pz1u.vercel.app/",
     imgSrc: "",
-    gitSrc: "https://github.com/YogeshYKG/React-Food-App",
+    gitSrc: "https://github.com/AnkitGupta/React-Food-App",
     label: "Food Ordering App",
     desc: "A React-based food ordering application with menu display and ordering functionality",
     tags: ["React", "JavaScript", "Food Ordering", "E-commerce", "UI/UX"],
@@ -80,7 +80,7 @@ const appitemcard = [
   {
     iframeSrc: "https://react-dynamic-clock.vercel.app/",
     imgSrc: "",
-    gitSrc: "https://github.com/YogeshYKG/React-dynamic-clock",
+    gitSrc: "https://github.com/AnkitGupta/React-dynamic-clock",
     label: "Dynamic Clock",
     desc: "A React JS application displaying a real-time dynamic clock",
     tags: ["React", "JavaScript", "Dynamic Clock", "Real-time", "Time Display"],
@@ -96,7 +96,7 @@ const appitemcard = [
   {
     iframeSrc: "https://react-calculator-app-six.vercel.app/",
     imgSrc: "",
-    gitSrc: "https://github.com/YogeshYKG/React-Calculator-App",
+    gitSrc: "https://github.com/AnkitGupta/React-Calculator-App",
     label: "Calculator",
     desc: "A React JS calculator application with basic arithmetic operations",
     tags: [

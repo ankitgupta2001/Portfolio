@@ -1,5 +1,5 @@
 /**
- * @copyright 2024 YogeshYKG
+ * @copyright 2025 AnkitGupta
  * @license Apache-2.0
  */
 
@@ -14,10 +14,13 @@ import Navbar from "./Navbar";
 import React,{ useState, useEffect } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 
+import { useNav } from './NavContext';
+import { Link } from "react-router-dom";
+
 
 
 const Header = () => {
-    const [navOpen, setNavOpen] = useState(false);
+    const { navOpen, setNavOpen } = useNav();
     const [hidden, setHidden] = useState(false);
     const { scrollY } = useScroll();
 
@@ -47,10 +50,10 @@ const Header = () => {
           <div className="max-w-screen-2xl w-full mx-auto px-4 flex items-center justify-between
           md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
               <h1>
-                  <a href="/" className="logo">
+                  <Link to="/" className="logo">
                   {/* import.meta.env.BASE_URL + */}
-                      <img src={"/images/Logo.svg"} width={80}  height={80} alt="Yogesh Gupta" />
-                  </a>
+                      <img src={"/images/Logo.svg"} width={80}  height={80} alt="Ankit Gupta" />
+                  </Link>
               </h1>
   
               <div className="relative md:justify-self-center">
@@ -65,15 +68,12 @@ const Header = () => {
                   { !hidden && <Navbar navOpen={navOpen}/>}
               </div>
   
-              <a 
-                href="#contact"  
+              <Link 
+                to="/Contact"  
                 className="btn btn-secondary max-md:hidden md:justify-self-end"
               >
                   Contact Me
-              </a>
-  
-  
-  
+              </Link>
           </div>
       </motion.header>
       </div>

@@ -7,7 +7,7 @@
 import PropTypes from "prop-types";
 import { useEffect, useRef } from "react";
 
-const WorkCard = ({
+const ProjectCard = ({
     imgSrc, 
     title,
     tags,
@@ -84,7 +84,7 @@ const WorkCard = ({
     );
 };
 
-WorkCard.propTypes = {
+ProjectCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     tags: PropTypes.array.isRequired, 
@@ -92,4 +92,4 @@ WorkCard.propTypes = {
     classes: PropTypes.string
 };
 
-export default WorkCard;
+export default ProjectCard;
